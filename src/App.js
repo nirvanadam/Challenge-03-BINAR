@@ -14,9 +14,11 @@ function App() {
     <>
       <BrowserRouter>
         <TodoSearch />
-        <TodoList />
         <Routes>
           <Route path="/add" element={<Add />}></Route>
+        </Routes>
+        <TodoList />
+        <Routes>
           <Route path="/all" element={<All />}></Route>
           <Route path="/done" element={<Done />}></Route>
           <Route path="/todo" element={<Todo />}></Route>
