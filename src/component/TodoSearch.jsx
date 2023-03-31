@@ -23,8 +23,8 @@ function TodoSearch() {
           </form>
           {/* Search Bar End */}
 
-          <button className="bg-[#263238] rounded-sm text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">Search</button>
-          <Link to="/add" className="md:col-span-2 bg-[#263238] rounded-sm text-cyan-400 text-center font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">
+          <button className="bg-[#263238] rounded-sm order-1 text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">Search</button>
+          <Link to="/add" className="bg-[#263238] self-end rounded-sm text-cyan-400 text-center font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">
             Add New Task
           </Link>
         </div>
