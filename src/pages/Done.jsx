@@ -10,10 +10,14 @@ function Done() {
         {completedTask.map((task) => (
           <div key={task.id} className="flex border justify-between border-slate-300 px-4 py-3 rounded-sm">
             <p>{task.task}</p>
-            <div className="flex gap-2">
+            <div className="flex gap-4">
               <input type="checkbox" checked={task.complete} name="" id="" />
-              <button>E</button>
-              <button>D</button>
+              <button>
+                <img src="images/edit_icon.svg" alt="" width="20px" />
+              </button>
+              <button>
+                <img src="images/delete_icon.svg" alt="" width="20px" />
+              </button>
             </div>
           </div>
         ))}

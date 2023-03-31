@@ -10,13 +10,13 @@ function TodoList() {
       <div className="my-4 mx-3 md:mx-5 lg:mx-10">
         <h1 className="text-center mb-3 font-baiJamure font-medium text-xl">Todo List</h1>
         <div className="flex gap-6">
-          <Link to="/all" className="bg-[#263238] rounded-sm w-full py-2 text-cyan-400 text-center">
+          <Link to="/all" className="bg-[#263238] rounded-sm w-full text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75 text-center">
             All
           </Link>
-          <Link to="/done" className="bg-[#263238] rounded-sm w-full py-2 text-cyan-400 text-center">
+          <Link to="/done" className="bg-[#263238] rounded-sm w-full text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75 text-center">
             Done
           </Link>
-          <Link to="/todo" className="bg-[#263238] rounded-sm w-full py-2 text-cyan-400 text-center">
+          <Link to="/todo" className="bg-[#263238] rounded-sm w-full text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75 text-center">
             Todo
           </Link>
         </div>

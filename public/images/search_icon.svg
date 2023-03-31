@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="M796 935 533 672q-30 26-69.959 40.5T378 727q-108.162 0-183.081-75Q120 577 120 471t75-181q75-75 181.5-75t181 75Q632 365 632 471.15 632 514 618 554q-14 40-42 75l264 262-44 44ZM377 667q81.25 0 138.125-57.5T572 471q0-81-56.875-138.5T377 275q-82.083 0-139.542 57.5Q180 390 180 471t57.458 138.5Q294.917 667 377 667Z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#121331;}
+</style>
+<g id="bounding_box">
+	<rect x="0" y="0" class="st0" width="24" height="24"/>
+</g>
+<g id="design">
+	<path class="st1" d="M20.51,19.09l-3.62-3.62c1.01-1.31,1.61-2.95,1.61-4.72C18.5,6.48,15.02,3,10.75,3S3,6.48,3,10.75
+		c0,4.27,3.48,7.75,7.75,7.75c1.77,0,3.42-0.6,4.73-1.61l3.61,3.62c0.2,0.19,0.45,0.29,0.71,0.29s0.51-0.1,0.71-0.29
+		C20.9,20.12,20.9,19.48,20.51,19.09z M5,10.75C5,7.58,7.58,5,10.75,5s5.75,2.58,5.75,5.75s-2.58,5.75-5.75,5.75S5,13.92,5,10.75z"
+		/>
+</g>
+</svg>

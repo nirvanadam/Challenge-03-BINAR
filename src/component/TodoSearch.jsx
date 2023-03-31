@@ -5,7 +5,7 @@ function TodoSearch() {
   return (
     <>
       {/* Todo Seacrh */}
-      <div className="my-2 mx-3 md:mx-5 lg:mx-10">
+      <div className="my-5 mx-3 md:mx-5 lg:mx-10">
         <h1 className="text-center mb-3 font-baiJamure font-medium text-xl">Todo Search</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 border border-slate-400 rounded-sm p-4">
           {/* Search Bar */}
@@ -23,8 +23,8 @@ function TodoSearch() {
           </form>
           {/* Search Bar End */}
 
-          <button className="bg-[#263238] rounded-sm text-cyan-400 py-2">Search</button>
-          <Link to="/add" className="md:col-span-2 bg-[#263238] rounded-sm text-cyan-400 text-center py-2">
+          <button className="bg-[#263238] rounded-sm text-cyan-400 font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">Search</button>
+          <Link to="/add" className="md:col-span-2 bg-[#263238] rounded-sm text-cyan-400 text-center font-medium py-2 hover:bg-gray-900 active:scale-95 transition duration-75">
             Add New Task
           </Link>
         </div>
